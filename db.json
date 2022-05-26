@@ -4,64 +4,201 @@
       "id": "1",
       "name": "Mr Charles Jacobs",
       "preferredName": "Charlie",
-      "birthday": "01-01-1934",
-      "room": "Room 4a, Logie Baird Suite"
+      "birthday": "1934-04-01",
+      "chiNumber": "0104340011",
+      "room": "Room 4a, Logie Baird Suite",
+      "awi": true,
+      "diet": false,
+      "dnacpr": true
     },
     {
       "id": "2",
       "name": "Mr Pilip Jones",
       "preferredName": "Phil",
-      "birthday": "01-01-1935",
-      "room": "Room 1, Logie Baird Suite"
+      "birthday": "1933-05-12",
+      "chiNumber": "1205330012",
+      "room": "Room 1, Logie Baird Suite",
+      "awi": true,
+      "diet": false,
+      "dnacpr": true
     },
     {
       "id": "3",
       "name": "Mr David Reid",
       "preferredName": "David",
-      "birthday": "01-01-1936",
-      "room": "Room 6, Logie Baird Suite"
+      "birthday": "1933-12-01",
+      "chiNumber": "0112330013",
+      "room": "Room 6, Logie Baird Suite",
+      "awi": true,
+      "diet": true,
+      "dnacpr": true
     },
     {
       "id": "4",
       "name": "Dr Andrew Walker",
       "preferredName": "Andy",
-      "birthday": "01-01-1937",
-      "room": "Room 6, Logie Baird Suite"
+      "birthday": "1940-07-07",
+      "chiNumber": "0707400014",
+      "room": "Room 6, Logie Baird Suite",
+      "awi": true,
+      "diet": false,
+      "dnacpr": true
     },
     {
       "id": "5",
       "name": "Mr James Riley",
       "preferredName": "Jim",
-      "birthday": "01-01-1938",
-      "room": "Room 6, Logie Baird Suite"
+      "birthday": "1935-02-20",
+      "chiNumber": "2002350015",
+      "room": "Room 6, Logie Baird Suite",
+      "awi": false,
+      "diet": false,
+      "dnacpr": true
     },
     {
       "id": "6",
       "name": "Mrs Jessica Smith",
       "preferredName": "Jessica",
       "birthday": "01-01-1939",
-      "room": "Room 14, Mackintosh Suite"
+      "chiNumber": "0101390016",
+      "room": "Room 14, Mackintosh Suite",
+      "awi": false,
+      "diet": false,
+      "dnacpr": true
     },
     {
       "id": "7",
       "name": "Mrs Olga Havelock",
       "preferredName": "Olga",
-      "birthday": "01-01-1932",
-      "room": "Room 29, Colquhoun Suite"
+      "birthday": "1939-08-01",
+      "chiNumber": "0108390021",
+      "room": "Room 29, Colquhoun Suite",
+      "awi": false,
+      "diet": false,
+      "dnacpr": true
     },
     {
       "id": "8",
       "name": "Mrs Emily Rose",
       "preferredName": "Emily",
-      "birthday": "01-01-1932",
-      "room": "Room 24, Colquhoun Suite"
+      "birthday": "1934-11-01",
+      "chiNumber": "0111340022",
+      "room": "Room 24, Colquhoun Suite",
+      "awi": true,
+      "diet": false,
+      "dnacpr": true
     },
     {
       "id": "9",
       "name": "Mrs Elizabeth McNeil",
       "preferredName": "Elizabeth",
-      "birthday": "01-01-1932",
-      "room": "Room 3, Logie Baird Suite"
+      "birthday": "1938-03-15",
+      "chiNumber": "1503380023",
+      "room": "Room 3, Logie Baird Suite",
+      "awi": true,
+      "diet": false,
+      "dnacpr": true
+    },
+    {
+      "id": "10",
+      "name": "Mrs Elspeth Docherty",
+      "preferredName": "Elspeth",
+      "birthday": "1933-09-06",
+      "chiNumber": "0609330024",
+      "room": "Room 23, Henry Bell Suite",
+      "awi": true,
+      "diet": false,
+      "dnacpr": true
+    }
+  ],
+  "timelines": [
+    {
+      "id": "1",
+      "user": "Shona Evans",
+      "patientId": "1",
+      "timestamp": "2022-05-01T08:03:16",
+      "category": "Toileting",
+      "note": "Charlie was able to make it from the bed to the toilet with minimal assistance."
+    },
+    {
+      "id": "2",
+      "user": "Shona Evans",
+      "patientId": "1",
+      "timestamp": "2022-05-01T08:08:35",
+      "category": "Washing and Dressing",
+      "note": "Charlie had a shower with minimal assistance. Helped Charlie choose his clothes for today."
+    },
+    {
+      "id": "3",
+      "user": "Shona Evans",
+      "patientId": "1",
+      "timestamp": "2022-05-01T08:20:42",
+      "category": "Eating and Drinking",
+      "note": "Charle had scrambled egg on toast, cup of tea and a glass of juice."
+    },
+    {
+      "id": "4",
+      "user": "Richard Lambert",
+      "patientId": "2",
+      "timestamp": "2022-05-01T08:10:41",
+      "category": "Toileting",
+      "note": "Phil needed some encouragment getting out of bed this morning. Phil required minimal assistance with his toileting."
+    },
+    {
+      "id": "5",
+      "user": "Richard Lambert",
+      "patientId": "2",
+      "timestamp": "2022-05-01T08:18:03",
+      "category": "Washing and Dressing",
+      "note": "Phil was able to fully wash and dress himself with a little encouragement."
+    },
+    {
+      "id": "6",
+      "user": "Richard Lambert",
+      "patientId": "2",
+      "timestamp": "2022-05-01T08:28:43",
+      "category": "Eating and Drinking",
+      "note": "Phil had a bowl of cornflakes, toast with marmalade and a cup of tea for breakfast."
+    },
+    {
+      "id": "7",
+      "user": "Shona Evans",
+      "patientId": "2",
+      "timestamp": "2022-05-01T08:25:17",
+      "category": "Medication",
+      "note": "All medication taken with minimal assistance."
+    },
+    {
+      "id": "8",
+      "user": "Richard Lambert",
+      "patientId": "3",
+      "timestamp": "2022-05-01T08:35:06",
+      "category": "Toileting",
+      "note": "David appears confused this morining. He was helped to the toilet by two carers and his urine has been tested."
+    },
+    {
+      "id": "9",
+      "user": "Richard Lambert",
+      "patientId": "3",
+      "timestamp": "2022-05-01T08:42:56",
+      "category": "Washing and Dressing",
+      "note": "I picked some clothes out for David today. David required full assistance to wash and dress."
+    },
+    {
+      "id": "10",
+      "user": "Richard Lambert",
+      "patientId": "3",
+      "timestamp": "2022-05-01T08:52:33",
+      "category": "Eating and Drinking",
+      "note": "David was offered breakfast which he refused. David was assisted drinking a cup of tea and a glass of juice. Care staff required to push fluids."
+    },
+    {
+      "id": "11",
+      "user": "Shona Evans",
+      "patientId": "3",
+      "timestamp": "2022-05-01T09:05:34",
+      "category": "Medication",
+      "note": "David took all his medication but required full assistance."
     }
   ]
 }
